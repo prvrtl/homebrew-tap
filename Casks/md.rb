@@ -4,22 +4,22 @@ cask "md" do
 
   on_macos do
     on_intel do
-      sha256 "5d2e8d025b0c2cd866a8c3f228678f7e6332457e575b8025f5489b0070ae8531"
+      sha256 "d37acee979bbfa66d27e8a38158a62062ff79eb0d6990484720dd10fee49bf38"
       url "https://github.com/prvrtl/mastodon-cli/releases/download/v#{version}/md_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "f3c1ae21a5923a482f08cf3c11413f2c921985389a477952175cdd6b80cba1b0"
+      sha256 "6878860f7e6cd8904e55d81d40405f882fc2b3d6e237d5ad1c893eb076d03d50"
       url "https://github.com/prvrtl/mastodon-cli/releases/download/v#{version}/md_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "4e95afeed7fc3c9789eaada3e010bf197ce06f7a63f83f19d07351babaefedb1"
+      sha256 "0af42f2833f3723dc957a35bfc993c514300458162fa83417f78fa56dce5c234"
       url "https://github.com/prvrtl/mastodon-cli/releases/download/v#{version}/md_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c72cff44660cd2dacd95831e9cb78a8c185b0918fc3ed6a1907b2fb60914d12e"
+      sha256 "68ba417dabcd9a99d7a9f2cad16be283c0bf1355a5520487bf7f2320d4728533"
       url "https://github.com/prvrtl/mastodon-cli/releases/download/v#{version}/md_#{version}_linux_arm64.tar.gz"
     end
   end
