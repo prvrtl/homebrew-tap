@@ -4,28 +4,28 @@ cask "md" do
 
   on_macos do
     on_intel do
-      sha256 "84964ff0ba957a9a7d2b04937004729f358ed1723d2b926e52a32832826de26a"
+      sha256 "ae3dc5efe594c65803130511fd1dde5568d27385e27a1b7244b563baaf37a9d3"
       url "https://github.com/prvrtl/mastodon-cli/releases/download/v#{version}/md_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "1a39219cc4a7b1238c86e6b4f2e0dcc255cd174b8c7b8914ca16a148a15e2184"
+      sha256 "1c68e163e1f58c4be09356310f2bdba3fef4fa50d5d4aab60259a5811325d5eb"
       url "https://github.com/prvrtl/mastodon-cli/releases/download/v#{version}/md_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "98269001fd4148d250053a309309b5bd1b223d190b783bbff1454223e92d1160"
+      sha256 "35016e31a7a186aa90c994563b65acb9e507d3f5e81b2d357ea4cc9b70563a6f"
       url "https://github.com/prvrtl/mastodon-cli/releases/download/v#{version}/md_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "86f934eb8585fabeb898a0c3615ec590aa01ead50ede11fe32224da32943e482"
+      sha256 "00b609dcd21c6051d61b0ed960f153974315c7845173707c097a30d50b5f54fa"
       url "https://github.com/prvrtl/mastodon-cli/releases/download/v#{version}/md_#{version}_linux_arm64.tar.gz"
     end
   end
 
   name "md"
-  desc "A terminal Mastodon client with a Claude Code-style TUI and live timelines"
+  desc "A terminal Mastodon client with a modern TUI and live timelines"
   homepage "https://github.com/prvrtl/mastodon-cli"
 
   livecheck do
